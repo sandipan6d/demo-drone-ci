@@ -7,3 +7,9 @@ steps:
   commands:
   - npm install
   - node init.js
+
+- name: backend
+  image: node
+  commands:
+  - npm install
+  - node init.js
